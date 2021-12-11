@@ -1,0 +1,32 @@
+
+.movies{  
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: auto;
+ justify-content: space-between;
+padding:200px;
+
+}
+.nav{
+  background-color: gray;
+  color: black;
+  position: sticky;
+  top: 0;
+
+}
+.col{
+  display: flex;
+  flex-direction: column;
+}
+.add{
+  display: flex;
+  justify-content: center;
+}
+
+.home{
+  color:rgb(0, 110, 255);
+  text-align: center;
+}
+.plus{
+  background-color: gray;
+}
